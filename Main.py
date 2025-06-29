@@ -106,7 +106,7 @@ model.compile(optimizer="adam",
               metrics=[keras.metrics.RootMeanSquaredError()])
 
 
-training = model.fit(X_train, y_train, epochs=90, batch_size=32)
+training = model.fit(X_train, y_train, epochs=100, batch_size=32)
 
 
 # Prep the test data
